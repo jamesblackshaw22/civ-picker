@@ -1,0 +1,47 @@
+/* Header classes ->
+app-header <header> 
+header-container <div>
+*/
+
+.app-header {
+  background-color: #282c34;
+  padding: 1rem 0;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #61dafb;
+}
+
+.app-header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.app-header nav li {
+  margin-left: 1.5rem;
+}
+
+.app-header nav a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.app-header nav a:hover {
+  color: #61dafb;
+}
