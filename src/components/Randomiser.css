@@ -1,5 +1,5 @@
 .randomizer-container {
-  max-width: 900px;
+  max-width: 600px;
   margin: 2rem auto;
   padding: 1rem;
 }
@@ -26,7 +26,7 @@
   border: none;
   border-radius: 4px;
   padding: 0.75rem 1.5rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -36,32 +36,12 @@
   background-color: #0088cc;
 }
 
-.randomize-button:disabled {
-  background-color: #cccccc;
-  cursor: not-allowed;
-}
-
 .random-result {
   background-color: white;
-  border-radius: 8px;
-  padding: 1.5rem;
+  border-radius: 9px;
+  padding: 1rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  transition: transform 0.3s ease;
-}
-
-.random-result.animating {
-  animation: pulse 0.5s infinite alternate;
-}
-
-@keyframes pulse {
-  from {
-    transform: scale(0.98);
-    opacity: 0.8;
-  }
-  to {
-    transform: scale(1.02);
-    opacity: 1;
-  }
+  margin-top: 1rem;
 }
 
 .random-result h3 {
@@ -85,14 +65,14 @@
 }
 
 .selected-placeholder-logo {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #0088cc;
   color: white;
-  font-size: 36px;
+  font-size: 24px;
   font-weight: bold;
   border-radius: 50%;
 }
@@ -102,14 +82,7 @@
 }
 
 .selected-civ-name {
-  margin: 0 0 0.5rem;
-  color: #333;
-  font-size: 1.8rem;
-}
-
-.selected-civ-description {
   margin: 0;
-  color: #666;
-  font-size: 1rem;
-  line-height: 1.5;
+  color: #333;
+  font-size: 1.7rem;
 }
